@@ -1,3 +1,8 @@
+/* Add this to your CSS file or style block */
+* {
+    box-sizing: border-box;
+}
+
 .speech-to-text-container {
   width: 90%;
   height: 90%;
@@ -7,7 +12,7 @@
 }
 
 .record-button {
-  background-color: #0074d9;
+  background-color: #921818;
   color: white;
   padding: 10px 20px;
   border: none;
@@ -18,7 +23,7 @@
 }
 
 .record-button.recording {
-  background-color: #ff4136;
+  background-color: #c20a00;
 }
 
 .transcript-textarea {
@@ -27,10 +32,11 @@
   font-size: 18px;
   outline: none;
   background-color: rgb(227, 227, 227);
+  padding: 1.2rem;
 }
 
 .submit-button {
-  background-color: #4caf50;
+  background-color: #4c7aaf;
   color: white;
   padding: 10px 20px;
   border: none;
@@ -42,7 +48,7 @@
 }
 
 .submit-button:hover {
-  background-color: #45a049;
+  background-color: #2267a3;
 }
 
 .buttons {
@@ -61,4 +67,23 @@
 h1 {
     font-size: 2.3rem;
     color: rgb(209, 209, 209);
+}
+
+.titleInput {
+    background-color: transparent;
+    outline: none;
+    border: none;
+    font-size: 2.3rem;
+    
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.interim-transcript {
+    color: rgb(184, 184, 184);
 }
