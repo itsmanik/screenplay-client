@@ -1,8 +1,7 @@
 // Chatbot.js
 import React, { useState } from 'react';
 import './styles/ChatbotStyles.css'; // Import custom CSS
-import Navbar from './Navbar';
-import Sidebar from './Sidebar';
+
 import ChatWindow from './ChatWindow';
 import ChatInput from './ChatInput';
 
@@ -25,16 +24,12 @@ const Chatbot = () => {
   };
 
   return (
-    <div className="chatbot-container">
-      <Navbar />
-      <div className="main-content">
-        <Sidebar />
+    
         <div className="chat-area">
           <ChatWindow messages={messages} />
           <ChatInput onSend={handleSend} />
         </div>
-      </div>
-    </div>
+      
   );
 };
 

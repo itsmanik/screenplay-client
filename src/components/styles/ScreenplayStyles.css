@@ -3,12 +3,16 @@
   flex-direction: column;
   align-items: center;
   padding: 20px;
+  overflow-y: auto;
+  scrollbar-width: thin; /* For Firefox */
+  scrollbar-color: #888 #f4f4f4; /* For Firefox */
   background-color: #f4f4f4;  /* Optional background color */
 }
 
 .screenplay-container {
   font-family: 'Courier New', Courier, monospace;
   padding: 20px;
+ 
   background-color: #f9f9f9;
   color: #333;
   margin: auto 25%;
