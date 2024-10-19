@@ -1,17 +1,24 @@
 // ChatWindow.js
 import React from 'react';
-import './ChatWindowStyles.css'; // Import CSS for styling
-import { FaUser, FaRobot } from 'react-icons/fa'; // Import icons from react-icons
+import './styles/ChatWindowStyles.css'; // Import CSS for styling
+import { FaUser, FaRobot , FaFilm } from 'react-icons/fa'; // Import icons from react-icons
 
 const ChatWindow = ({ messages }) => {
   return (
     <div className="chat-window">
-      {messages.map((msg, index) => (
+      {messages.length === 0 ? (
+        <div className="no-messages">
+          <FaFilm className="nomsgicon" />
+          <div className="nomessage-bubble">Start using screenplay</div>
+        </div>
+      ) : (
+        messages.map((msg, index) => (
         <div key={index} className={`chat-message ${msg.sender}`}>
-          {msg.sender === 'user' ? <FaUser className="icon" /> : <FaRobot className="icon" />}
+          {msg.sender === 'user' ? <FaUser className="msgicon" /> : <FaRobot className="msgicon" />}
           <div className="message-bubble">{msg.text}</div>
         </div>
-      ))}
+        ))
+      )}
     </div>
   );
 };

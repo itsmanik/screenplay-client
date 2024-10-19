@@ -1,6 +1,6 @@
 // Chatbot.js
 import React, { useState } from 'react';
-import './ChatbotStyles.css'; // Import custom CSS
+import './styles/ChatbotStyles.css'; // Import custom CSS
 import Navbar from './Navbar';
 import Sidebar from './Sidebar';
 import ChatWindow from './ChatWindow';

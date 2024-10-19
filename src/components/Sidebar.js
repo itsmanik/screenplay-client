@@ -1,6 +1,7 @@
 // Sidebar.js
 import React from 'react';
-import './SidebarStyles.css'; // Import CSS for styling
+import './styles/SidebarStyles.css'; // Import CSS for styling
+import { Link } from 'react-router-dom';
 
 const Sidebar = () => {
   return (
@@ -9,7 +10,9 @@ const Sidebar = () => {
       <ul>
         {[1, 2, 3, 4, 5].map((num) => (
           <li key={num}>
-            <span className="icon">🎬</span> Scene {num}
+            <Link to={`/scene/${num}`}>
+              <span className="icon">🎬</span> Scene {num}
+            </Link>
           </li>
         ))}
       </ul>

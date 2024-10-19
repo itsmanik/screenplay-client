@@ -2,7 +2,7 @@
 import React, { useState } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faPaperPlane } from '@fortawesome/free-solid-svg-icons';
-import './ChatInputStyles.css'; // Import CSS for styling
+import './styles/ChatInputStyles.css'; // Import CSS for styling
 
 const ChatInput = ({ onSend }) => {
   const [userInput, setUserInput] = useState("");

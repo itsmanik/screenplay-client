@@ -23,4 +23,9 @@
   .sidebar li:hover {
     text-decoration: underline; /* Add hover effect */
   }
+
+  .sidebar a {
+    text-decoration: none;
+    color: white;
+  }
   
