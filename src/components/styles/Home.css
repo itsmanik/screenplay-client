@@ -1,0 +1,64 @@
+.speech-to-text-container {
+  width: 90%;
+  height: 90%;
+  margin: auto;
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.record-button {
+  background-color: #0074d9;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-size: 16px;
+}
+
+.record-button.recording {
+  background-color: #ff4136;
+}
+
+.transcript-textarea {
+  width: 100%;
+  resize: none;
+  font-size: 18px;
+  outline: none;
+  background-color: rgb(227, 227, 227);
+}
+
+.submit-button {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  transform: translateX(-50%);
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-size: 16px;
+}
+
+.submit-button:hover {
+  background-color: #45a049;
+}
+
+.buttons {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.buttonsInnerDiv {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+h1 {
+    font-size: 2.3rem;
+    color: rgb(209, 209, 209);
+}
