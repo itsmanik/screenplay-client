@@ -1,0 +1,94 @@
+.screenplay-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background-color: #f4f4f4;  /* Optional background color */
+}
+
+.screenplay-container {
+  font-family: 'Courier New', Courier, monospace;
+  padding: 20px;
+  background-color: #f9f9f9;
+  color: #333;
+  margin: auto 25%;
+}
+
+/* FADE IN */
+fadein {
+  display: block;
+  font-size: 24px;
+  /* color: #FF6347; */
+  margin-bottom: 20px;
+}
+
+/* Scene Heading */
+scene-heading {
+  display: block;
+  font-size: 20px;
+  font-weight: bold;
+  margin: 15px 0 5px;
+  /* color: #2E8B57; */
+}
+
+/* Action description */
+action {
+  display: block;
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 15px;
+}
+
+/* Character Name */
+character {
+  font-weight: bold;
+  /* color: #1E90FF; */
+}
+
+/* Dialogue */
+dialogue {
+  margin-left: 20px;
+}
+
+quote {
+  display: block;
+  margin-left: 20px;
+  font-style: italic;
+  /* color: #808080; */
+  padding-left: 10px;
+  border-left: 2px solid #ccc;
+}
+
+/* Intercut Heading */
+intercut-heading {
+  display: block;
+  font-size: 18px;
+  margin-top: 20px;
+  /* color: #8B0000; */
+}
+
+/* Shot */
+shot {
+  display: block;
+  margin-left: 40px;
+  font-size: 14px;
+  /* color: #696969; */
+}
+
+
+
+
+.download-button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.download-button:hover {
+  background-color: #0056b3;
+}

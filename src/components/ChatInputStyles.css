@@ -1,0 +1,30 @@
+.chat-input {
+    display: flex;
+    padding: 10px;
+    background-color: #202123; /* Dark input background */
+    border-top: 1px solid #444; /* Top border to separate from chat window */
+    position: absolute; /* Absolute position to stick to the bottom */
+    bottom: 0; /* Stick to bottom */
+    left: 0; /* Align to left */
+    right: 0; /* Align to right */
+  }
+  
+  .chat-input input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #444; /* Border for input field */
+    border-radius: 4px;
+    margin-right: 10px;
+    background-color: #303134; /* Darker input background */
+    color: white; /* White text in input */
+  }
+  
+  .chat-input button {
+    background-color: #007bff; /* Send button color */
+    border: none;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  

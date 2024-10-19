@@ -1,0 +1,21 @@
+.chatbot-container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-color: #181818; /* Dark background */
+  }
+  
+  .main-content {
+    display: flex;
+    flex: 1;
+    overflow: hidden; /* Prevent overflow */
+  }
+  
+  .chat-area {
+    display: flex;
+    flex-direction: column; /* Stack chat window and input vertically */
+    flex: 1; /* Take all available space */
+    overflow: hidden; /* Hide overflow */
+    position: relative; /* Relative positioning for absolute children */
+  }
+  

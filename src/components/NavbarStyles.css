@@ -1,0 +1,33 @@
+/* NavbarStyles.css */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #202123; /* Dark background for the navbar */
+  color: white; /* White text for the navbar */
+}
+
+.navbar h2 {
+  margin: 0;
+  font-size: 1.5rem; /* Adjust title size */
+}
+
+.navbar-menu {
+  display: flex;
+}
+
+.nav-button {
+  background: none;
+  border: none;
+  color: white; /* Icon color */
+  font-size: 1rem; /* Size of the icons */
+  margin-left: 15px; /* Space between buttons */
+  cursor: pointer; /* Pointer on hover */
+  transition: color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.nav-button:hover {
+  color: #007bff; /* Change color on hover */
+}
+

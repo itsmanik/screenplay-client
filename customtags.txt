@@ -1,0 +1,22 @@
+const customTags = [
+  "<screenplay>",
+  "<fadein>",
+  "<scene>",
+  "<scene-heading>",
+  "<action>",
+  "<dialogue>",
+  "<character>",
+  "<quote>",
+  "<intercut-heading>",
+  "<shot>",
+  "<parenthetical>",
+  "<transition>",
+  "<note>",
+  "<location>",
+  "<time>",
+  "<voiceover>",
+  "<flashback>",
+  "<flashforward>",
+  "<cutaway>",
+  "<sfx>"
+];

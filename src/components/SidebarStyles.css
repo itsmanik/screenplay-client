@@ -1,0 +1,26 @@
+.sidebar {
+    width: 240px;
+    background-color: #202123; /* Darker sidebar color */
+    padding: 20px;
+    color: white;
+    border-right: 1px solid #444;
+  }
+  
+  .sidebar h3 {
+    margin-bottom: 20px;
+  }
+  
+  .sidebar ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .sidebar li {
+    margin: 10px 0;
+    cursor: pointer;
+  }
+  
+  .sidebar li:hover {
+    text-decoration: underline; /* Add hover effect */
+  }
+  

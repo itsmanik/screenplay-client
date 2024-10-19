@@ -1,0 +1,117 @@
+.chatbot-fullpage-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+    width: 100vw;
+    max-width: 900px;  /* Set a maximum width */
+    margin: 0 auto;   /* Center the container */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #1E1E1E;
+    color: #EDEDED;
+    box-sizing: border-box;
+  }
+  
+  /* Chat window styling */
+  .chat-window {
+    padding: 20px;
+    overflow-y: auto;
+    flex-grow: 1;
+    background-color: #2C2C2C;  /* Darker background for messages */
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  /* User and bot message styles */
+  .chat-message {
+    display: flex;
+    margin-bottom: 10px;
+  }
+  
+  .chat-message.user {
+    justify-content: flex-end;
+  }
+  
+  .chat-message.bot {
+    justify-content: flex-start;
+  }
+  
+  /* Message bubbles */
+  .message-bubble {
+    max-width: 75%;
+    padding: 12px 18px;
+    border-radius: 12px;
+    font-size: 15px;
+    line-height: 1.5;
+    background-color: #3E3E3E;
+  }
+  
+  .user .message-bubble {
+    background-color: #007bff;  /* Blue for user messages */
+    color: white;
+    border-bottom-right-radius: 0;
+  }
+  
+  .bot .message-bubble {
+    background-color: #444444;  /* Slightly darker gray for bot messages */
+    color: #EDEDED;
+    border-bottom-left-radius: 0;
+  }
+  
+  /* Chat input area */
+  .chat-input {
+    display: flex;
+    border-top: 1px solid #3A3A3A;
+    padding: 20px;
+    background-color: #2C2C2C;
+  }
+  
+  .chat-input input {
+    flex-grow: 1;
+    padding: 15px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    border-radius: 25px;
+    background-color: #3E3E3E;
+    color: white;
+    margin-right: 10px;
+  }
+  
+  .chat-input input::placeholder {
+    color: #B0B0B0;
+  }
+  
+  .chat-input button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .chat-input button:hover {
+    background-color: #005bb5;
+  }
+  
+  /* Scroll bar customization */
+  .chat-window::-webkit-scrollbar {
+    width: 6px;
+  }
+  
+  .chat-window::-webkit-scrollbar-thumb {
+    background-color: #5A5A5A;
+    border-radius: 10px;
+  }
+  
+  /* Make sure input area stays fixed at the bottom */
+  html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    box-sizing: border-box;
+  }
+  
